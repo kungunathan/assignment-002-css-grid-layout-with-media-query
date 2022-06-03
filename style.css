@@ -15,20 +15,19 @@
 main{
     grid-area: main;
     align-items: center;
-    border: solid ;
+    border: solid 1px ;
 }
 #left-sidebar{
     grid-area: left-sidebar;
-    border: solid ;
+    border: solid 1px ;
 }
 #right-sidebar{
     grid-area: right-sidebar;
-    border: solid ;
+    border: solid 1px ;
 }
 #bottom-sidebar{
     grid-area:bottom-sidebar ;
-    border: solid ;
-}
+    border: solid 1px ;}
 img{
     height: 300px;
     width: 400px;
