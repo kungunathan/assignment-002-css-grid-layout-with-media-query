@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 4fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr ;
+    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr ;
     grid-template-areas:
         "h2 h2 h2"
         "left-sidebar main right-sidebar"
@@ -28,7 +28,9 @@ main{
 }
 #bottom-sidebar{
     grid-area:bottom-sidebar ;
-    border: solid 1px ;}
+    border: solid 1px ;
+    align-items: center;
+}
 img{
     height: 300px;
     width: 400px;
